@@ -1,6 +1,6 @@
 # Site settings
-title: BY Blog
-SEOTitle: toyourheart | BY Blog
+title: TY Blog
+SEOTitle: toyourheart | TY Blog
 header-img: img/post-bg-desk.jpg
 email: wei40680@gmail.com
 description: "Every failure is leading towards success."
@@ -48,6 +48,15 @@ kramdown:
 # 评论系统
 # Disqus（https://disqus.com/）
 disqus_username: toyourheart163
+
+# Gitalk
+clientID: `Github Application clientID`,
+clientSecret: `Github Application clientSecret`,
+repo: `https://github.com/toyourheart163/toyourheart163.github.io.git`,
+owner: 'toyourheart163',
+admin: ['toyourheart163'], //这个仓库的管理员，可以有多个，用数组表示，一般写自己,
+id: 'window.location.pathname', //页面的唯一标识，gitalk 会根据这个标识自动创建的issue的标签,我们使用页面的相对路径作为标识
+
 
 
 # 统计
