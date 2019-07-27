@@ -2,12 +2,12 @@
 title: TY Blog
 SEOTitle: toyourheart | TY Blog
 header-img: img/post-bg-desk.jpg
-email: wei40680@gmail.com
+email: v-wei40680@gmail.com
 description: "Every failure is leading towards success."
 keyword: "iOS, Apple, iPhone, Python"
-url: "https://toyourheart163.github.io"          # your host, for absolute URL
+url: "https://v-wei40680.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/toyourheart163/toyourheart163.github.io.git" # you code repository
+github_repo: "https://github.com/v-wei40680/v-wei40680.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -16,7 +16,7 @@ sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: true
-github_username:    toyourheart163
+github_username:    v-wei40680
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
