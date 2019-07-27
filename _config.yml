@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: wei40680@gmail.com
 description: "Every failure is leading towards success."
 keyword: "iOS, Apple, iPhone, Python"
-url: "http://toyourheart163.github.io"          # your host, for absolute URL
+url: "https://toyourheart163.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/toyourheart163/toyourheart163.github.io.git" # you code repository
 
@@ -79,7 +79,13 @@ service-worker: true
 friends: [
     {
         title: "BY",
-        href: "https://github.com/qiubaiying/qiubaiying.github.io"
+        href: "https://qiubaiying.github.io"
+    }{
+        title: "ruanyifeng",
+        href: "https://ruanyifeng.com"
+    }{
+        title: "liaoxuefeng",
+        href: "https://liaoxuefeng.com"
     },{
         title: "Apple",
         href: "https://apple.com"
