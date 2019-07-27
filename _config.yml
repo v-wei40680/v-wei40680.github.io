@@ -47,7 +47,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+disqus_username: Be Live
 
 
 # 统计
@@ -69,8 +69,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "qiubaiying",
-        href: "http://qiubaiying.top"
+        title: "BY",
+        href: "https://github.com/qiubaiying/qiubaiying.github.io"
     },{
         title: "Apple",
         href: "https://apple.com"
