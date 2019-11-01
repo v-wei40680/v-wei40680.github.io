@@ -189,6 +189,8 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
+{% if site.clientID %}
+<div id="gitalk-container"></div>
 <script type="text/javascript">
     var gitalk = new Gitalk({
         clientID: '{{ site.clientID }}',
@@ -199,7 +201,8 @@ layout: default
         id: "{{ site.id }}"
     })
     gitalk.render('gitalk-container')           
-</script>
+    </script>
+{% endif %}
 
 {% if site.anchorjs %}
 <!-- async load function -->
