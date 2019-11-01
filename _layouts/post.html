@@ -200,10 +200,10 @@ layout: default
         admin: "{{ site.admin }}",
         id: location.href,
         perPage: "{{ site.perPage }}",
-        distractionFreeMode: "site.distractionFreeMode"
+        distractionFreeMode: "{{ site.distractionFreeMode }}"
     })
     gitalk.render('gitalk-container')           
-    </script>
+</script>
 {% endif %}
 
 {% if site.anchorjs %}
