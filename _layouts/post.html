@@ -189,6 +189,24 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
+{% if site.clientID %}
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: '{{ site.clientID }}',
+          clientSecret: '{{ site.clientSecret }}',
+          repo: '{{ site.repo }}',
+          owner: '{{ site.owner }}',
+          admin: "{{ site.admin }}",
+          id: "{{ site.id }}"
+        })
+        gitalk.render('gitalk-container')           
+       </script>
+{% endif %}
 
 {% if site.anchorjs %}
 <!-- async load function -->
