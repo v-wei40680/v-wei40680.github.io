@@ -55,8 +55,9 @@ clientSecret: 'bfb367fca2db230f73d69d4fe4e6e79d85f67adc'
 repo: 'v-wei40680.github.io'
 owner: 'v-wei40680'
 admin: ['v-wei40680'] # 这个仓库的管理员，可以有多个，用数组表示，一般写自己,
-id: 'window.location.pathname' # //页面的唯一标识，gitalk 会根据这个标识自动创建的issue的标签,我们使用页面的相对路径作为标识
-
+id: 'location.href' # //页面的唯一标识，gitalk 会根据这个标识自动创建的issue的标签,我们使用页面的相对路径作为标识
+distractionFreeMode: false
+perPage: 10
 
 
 # 统计
