@@ -189,20 +189,17 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
-{% if site.clientID %}
-
-   <script type="text/javascript">
-        var gitalk = new Gitalk({
-          clientID: '{{ site.clientID }}',
-          clientSecret: '{{ site.clientSecret }}',
-          repo: '{{ site.repo }}',
-          owner: '{{ site.owner }}',
-          admin: "{{ site.admin }}",
-          id: "{{ site.id }}"
-        })
-        gitalk.render('gitalk-container')           
-       </script>
-{% endif %}
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '{{ site.clientID }}',
+        clientSecret: '{{ site.clientSecret }}',
+        repo: '{{ site.repo }}',
+        owner: '{{ site.owner }}',
+        admin: "{{ site.admin }}",
+        id: "{{ site.id }}"
+    })
+    gitalk.render('gitalk-container')           
+</script>
 
 {% if site.anchorjs %}
 <!-- async load function -->
