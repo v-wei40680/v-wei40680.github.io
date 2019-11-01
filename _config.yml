@@ -52,7 +52,7 @@ kramdown:
 # Gitalk
 clientID: 7f845e03f3286c9fdafa
 clientSecret: bfb367fca2db230f73d69d4fe4e6e79d85f67adc
-repo: v-wei40680.github.io.git
+repo: v-wei40680.github.io
 owner: 'v-wei40680'
 admin: ['v-wei40680'] # 这个仓库的管理员，可以有多个，用数组表示，一般写自己,
 id: 'location.href' # //页面的唯一标识，gitalk 会根据这个标识自动创建的issue的标签,我们使用页面的相对路径作为标识
